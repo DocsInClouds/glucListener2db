@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name" translatable="false">Glucose 2 DB</string>
+    <string name="sharedPrefsName" translatable="false">prefs</string>
+    <string name="prefsEmbeddedPcIp" translatable="false">embeddedPcIp</string>
+    <string name="itemNotFound" translatable="false">itemNotFound</string>
+    <string name="ble_not_supported" translatable="false">BLE is not supported</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <string name="low_bridge_battery" translatable="false">Low bridge battery</string>
+    <string name="transmitter_battery" translatable="false">transmitter battery</string>
+    <string name="parakeet_related_alerts" translatable="false">Parakeet related alerts</string>
+    <string name="reminders">Reminders</string>
+    <string name="glucose_alerts_settings">Glucose Alerts Settings</string>
+    <string name="missed_reading_alert" translatable="false">Missed reading alert</string>
+    <string name="bg_rising_fast">Bg rising fast</string>
+    <string name="low_predicted" translatable="false">Low predicted</string>
+    <string name="persistent_high_alert" translatable="false">Persistent High Alert</string>
+    <string name="calibration_alerts" translatable="false">Calibration Alerts</string>
+    <string name="channel_name" translatable="false">glucValues</string>
+    <string name="channel_description" translatable="false">Glucose values from sensor reader</string>
+
+    <string name="prefs_dexcomTransmitterId" translatable="false">dex_txid</string>
+    <string name="title_dexcomTransmitterId" translatable="false">Dexcom Transmitter ID</string>
+    <string name="summary_dexcomTransmitterId">Enter your transmitter ID</string>
+
+    <string name="prefs_dexcomTransmitterType" translatable="false">dex_txtype</string>
+    <string name="title_dexcomTransmitterType">Dexcom Transmitter Type</string>
+    <string name="dialog_dexcomTransmitterType">Pick your transmitter type</string>
+    <string name="summary_dexcomTransmitterType">Your transmitter type: %s</string>
+
+    <string name="dialog_timespan">Pick a timespan</string>
+
+    <string name="prefs_colorscheme">colorscheme</string>
+    <string name="default_colorscheme" translatable="false">false</string>
+
+    <string name="GeneralSettings">General Settings</string>
+
+    <string name="unit_second">second</string>
+    <string name="unit_minute">minute</string>
+    <string name="unit_hour">hour</string>
+    <string name="unit_day">day"</string>
+    <string name="unit_week">week"</string>
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_minutes">minutes</string>
+    <string name="unit_hours">hours</string>
+    <string name="unit_days">days"</string>
+    <string name="unit_weeks">weeks"</string>
+    <string name="settings">Settings</string>
+    <string name="title_themecategory">themecategory</string>
+    <string name="infoButtonText" translatable="false">i</string>
+    <string name="enableText">enabled</string>
+    <string name="generalTitle">General Settings</string>
+    <string name="pref_lowGlucoseQuery">Enter the threshold for lowest glucose value</string>
+    <string name="pref_highGlucoseQuery">Enter threshold for highest glucose value</string>
+
+
+    <string name="plot_current">Current</string>
+    <string name="plot_value">Value</string>
+    <string name="plot_waiting">Waiting</string>
+    <string name="plot_for">for</string>
+    <string name="plot_incoming">incoming</string>
+    <string name="plot_values">values</string>
+
+    <string name="settings_cancel">Cancel</string>
+
+    <string name="clearDBText">Clear Data</string>
+    <string name="app_version_nr">Version</string>
+    <string name="LocationServiceDialog_Title">Location Services Needed</string>
+    <string name="LocationServiceDialog_Message">Android requires activated location services for the connection to the sensor. Please enter your settings and enable them.</string>
+    <string name="LocationServiceDialog_EnterSettings">Enter Settings</string>
+
+    <string name="mainWarningText">App interferes with official Dexcom app!</string>
+    <string name="title_generalcategory">general</string>
+
+</resources>

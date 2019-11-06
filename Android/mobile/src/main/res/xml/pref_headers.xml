@@ -1,0 +1,10 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:title="@string/settings"></header>
+
+    <header
+      android:fragment="com.docsinclouds.glucose2db.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_settings_applications_black_24dp"
+        android:title="@string/GeneralSettings" />
+
+</preference-headers>

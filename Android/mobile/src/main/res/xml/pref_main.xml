@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/title_generalcategory"
+        android:title="Glucose">
+        <EditTextPreference
+            android:inputType="textCapWords|textCapCharacters"
+            android:key="@string/prefs_dexcomTransmitterId"
+            android:maxLength="6"
+            android:textAllCaps="true"
+            android:summary="@string/summary_dexcomTransmitterId"
+            android:title="@string/title_dexcomTransmitterId"/>
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_dexcomTransmitterType"
+            android:entries="@array/pref_dexcomTransmitterType_entries"
+            android:entryValues="@array/pref_dexcomTransmitterType_values"
+            android:key="@string/prefs_dexcomTransmitterType"
+            android:defaultValue="2"
+            android:summary="@string/summary_dexcomTransmitterType"
+            android:title="@string/title_dexcomTransmitterType" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
